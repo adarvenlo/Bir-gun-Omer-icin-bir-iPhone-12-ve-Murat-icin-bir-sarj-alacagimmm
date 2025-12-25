@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Über uns – Huzur Bäckerei und Döner</title>
+  <meta name="description" content="Familienbetrieb mit über 20 Jahren Erfahrung: Bäckerei & Konditorei mit türkisch-deutschen Spezialitäten und Döner in Alzenau." />
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="Huzur Logo" />
+        <div class="title">
+          <strong>Huzur Bäckerei und Döner</strong>
+          <span>Familienbetrieb · Alzenau</span>
+        </div>
+      </a>
+
+      <div class="nav-links">
+        <a data-nav href="index.html">Start</a>
+        <a data-nav href="speisekarte.html">Speisekarte</a>
+        <a data-nav href="ueber-uns.html">Über uns</a>
+        <a data-nav href="kontakt.html">Kontakt</a>
+      </div>
+
+      <div class="nav-cta">
+        <a class="btn" href="tel:+4960239196989">📞 Anrufen</a>
+        <a class="btn whatsapp" href="https://wa.me/4960239196989" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <button class="burger" data-burger aria-label="Menü öffnen" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="drawer" data-drawer>
+      <a data-nav href="index.html">Start</a>
+      <a data-nav href="speisekarte.html">Speisekarte</a>
+      <a data-nav href="ueber-uns.html">Über uns</a>
+      <a data-nav href="kontakt.html">Kontakt</a>
+      <div class="drawer-cta">
+        <a class="btn" href="tel:+4960239196989">📞 Anrufen</a>
+        <a class="btn whatsapp" href="https://wa.me/4960239196989" target="_blank" rel="noopener">💬 WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <div class="kicker">🥖 Tradition · 👨‍👩‍👧‍👦 Familie · ✅ Halal</div>
+    <h1 class="h1" style="margin-top:14px;">Über uns</h1>
+
+    <div class="card">
+      <h2>Mehr als 20 Jahre Erfahrung</h2>
+      <p class="small">
+        <strong>Huzur Bäckerei und Döner</strong> ist ein familiengeführter Betrieb mit <strong>über 20 Jahren Erfahrung</strong>
+        in Bäckerei und Backwaren. Wir stehen für Qualität, Frische und freundlichen Service – und verbinden
+        türkische sowie deutsche Genusskultur unter einem Dach.
+      </p>
+
+      <h2>Von der Bäckerei zum Ort zum Genießen</h2>
+      <p class="small">
+        Als Bäckerei gestartet, sind wir heute auch ein kleiner Ort zum Essen: Mit Sitzplätzen vor Ort,
+        warmen Gerichten und Klassikern wie Döner, Pommes und Snacks.
+        <strong>Seit 2020 sind wir in Alzenau</strong> – und freuen uns, Teil der Nachbarschaft zu sein.
+      </p>
+
+      <h2>Wofür wir stehen</h2>
+      <ul class="small" style="color: var(--muted); margin-top:10px;">
+        <li><strong>Frisch</strong>: tägliches Sortiment und laufend neue Angebote.</li>
+        <li><strong>Türkisch & Deutsch</strong>: von Backwaren bis zu herzhaften Speisen.</li>
+        <li><strong>Döner in Qualität</strong>: sorgfältige Auswahl und <strong>alles halal</strong>.</li>
+        <li><strong>Kompetenz</strong>: spezialisiert auf Backwaren und Konditorei-Produkte.</li>
+        <li><strong>Familienbetrieb</strong>: persönlich, zuverlässig und herzlich.</li>
+      </ul>
+
+      <div class="hero-actions" style="margin-top:14px;">
+        <a class="btn primary" href="speisekarte.html">Speisekarte ansehen</a>
+        <a class="btn" href="kontakt.html">Kontakt & Route</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <strong>Huzur Bäckerei und Döner</strong><br/>
+        Schloßstraße 7, 63755 Alzenau
+      </div>
+      <div>
+        <strong>Telefon/WhatsApp</strong><br/>
+        <a href="tel:+4960239196989">+49 6023 9196989</a>
+      </div>
+      <div>
+        <strong>Rechtliches</strong><br/>
+        <a href="impressum.html">Impressum</a><br/>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+    </div>
+    <hr class="sep"/>
+    <div>© <span id="y"></span> Huzur Bäckerei und Döner.</div>
+  </div>
+</footer>
+
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+<script src="assets/script.js"></script>
+</body>
+</html>

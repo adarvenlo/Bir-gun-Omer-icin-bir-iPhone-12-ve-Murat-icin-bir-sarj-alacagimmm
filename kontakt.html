@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kontakt – Huzur Bäckerei und Döner</title>
+  <meta name="description" content="Kontakt & Anfahrt: Huzur Bäckerei und Döner, Schloßstraße 7, 63755 Alzenau. Telefon/WhatsApp +49 6023 9196989. Google Maps." />
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="Huzur Logo" />
+        <div class="title">
+          <strong>Huzur Bäckerei und Döner</strong>
+          <span>Kontakt · Anfahrt</span>
+        </div>
+      </a>
+
+      <div class="nav-links">
+        <a data-nav href="index.html">Start</a>
+        <a data-nav href="speisekarte.html">Speisekarte</a>
+        <a data-nav href="ueber-uns.html">Über uns</a>
+        <a data-nav href="kontakt.html">Kontakt</a>
+      </div>
+
+      <div class="nav-cta">
+        <a class="btn" href="tel:+4960239196989">📞 Anrufen</a>
+        <a class="btn whatsapp" href="https://wa.me/4960239196989" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <button class="burger" data-burger aria-label="Menü öffnen" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="drawer" data-drawer>
+      <a data-nav href="index.html">Start</a>
+      <a data-nav href="speisekarte.html">Speisekarte</a>
+      <a data-nav href="ueber-uns.html">Über uns</a>
+      <a data-nav href="kontakt.html">Kontakt</a>
+      <div class="drawer-cta">
+        <a class="btn" href="tel:+4960239196989">📞 Anrufen</a>
+        <a class="btn whatsapp" href="https://wa.me/4960239196989" target="_blank" rel="noopener">💬 WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <div class="kicker">📍 Schloßstraße 7 · 63755 Alzenau</div>
+    <h1 class="h1" style="margin-top:14px;">Kontakt & Anfahrt</h1>
+
+    <div class="contact-grid">
+      <div class="card">
+        <h2>Kontakt</h2>
+        <p class="small" style="margin:0 0 10px;">
+          <strong>Adresse:</strong><br/>
+          Schloßstraße 7<br/>
+          63755 Alzenau, Deutschland
+        </p>
+
+        <p class="small" style="margin:0 0 10px;">
+          <strong>Telefon / WhatsApp:</strong><br/>
+          <a href="tel:+4960239196989">+49 6023 9196989</a>
+        </p>
+
+        <div class="hero-actions" style="margin-top:10px;">
+          <a class="btn primary" href="tel:+4960239196989">📞 Anrufen</a>
+          <a class="btn whatsapp" href="https://wa.me/4960239196989" target="_blank" rel="noopener">💬 WhatsApp</a>
+          <a class="btn" href="https://www.google.com/maps?q=Schlo%C3%9Fstra%C3%9Fe+7,+63755+Alzenau" target="_blank" rel="noopener">🧭 Route</a>
+        </div>
+
+        <hr class="sep"/>
+
+        <h2 id="zeiten">Öffnungszeiten</h2>
+        <p class="small" style="margin:0;">
+          <strong>Montag – Samstag:</strong> 05:00 – 20:30<br/>
+          <strong>Sonntag:</strong> 07:00 – 14:00
+        </p>
+
+        <hr class="sep"/>
+
+        <h2>Abholung & Lieferung</h2>
+        <p class="small" style="margin:0;">
+          Bestellen Sie bequem per Telefon oder WhatsApp.
+          Lieferung erfolgt über unsere Nummer (bitte Adresse & Wunschzeit angeben).
+        </p>
+      </div>
+
+      <div>
+        <iframe
+          class="map"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Schlo%C3%9Fstra%C3%9Fe+7,+63755+Alzenau&output=embed"
+          aria-label="Google Maps Karte – Schloßstraße 7, 63755 Alzenau">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <strong>Huzur Bäckerei und Döner</strong><br/>
+        Schloßstraße 7, 63755 Alzenau
+      </div>
+      <div>
+        <strong>Telefon/WhatsApp</strong><br/>
+        <a href="tel:+4960239196989">+49 6023 9196989</a>
+      </div>
+      <div>
+        <strong>Rechtliches</strong><br/>
+        <a href="impressum.html">Impressum</a><br/>
+        <a href="datenschutz.html">Datenschutz</a>
+      </div>
+    </div>
+    <hr class="sep"/>
+    <div>© <span id="y"></span> Huzur Bäckerei und Döner.</div>
+  </div>
+</footer>
+
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+<script src="assets/script.js"></script>
+</body>
+</html>
